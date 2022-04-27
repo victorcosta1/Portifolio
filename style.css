@@ -72,7 +72,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-right: 30px;
+    padding-right: 25px;
     color: white;
     font-size: 25px;
 }
@@ -271,8 +271,6 @@ h1:after {
 }
 
 
-
-
 .checked {
     color: #00ffffa8;
   }
@@ -282,3 +280,92 @@ h1:after {
     transition: 0.3s;
 }
 
+/*--------------------------------------*/
+
+.tec-h3{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.tec-ctn{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.row-1  img{
+    width: 120px;
+    height: 120px;
+    padding: 0px 25px;
+}
+
+/*------------------*/
+.tec-ctn-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.row-2  img{
+    width: 120px;
+    height: 120px;
+    padding: 45px 25px;
+}
+
+/*------------------------*/
+
+.tec-ctn-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.row-3  img{
+    width: 120px;
+    height: 120px;
+    padding: 45px 25px;
+}
+
+/*----------------------------------*/
+
+.projetos-h3{
+    text-align: center;
+}
+
+
+.projetos-ctn{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.projetos-ctn  img:hover{
+    box-shadow: 0px 0px 21px 4px #3ab1b1ba;
+    transition: 0.5s;
+}
+
+.quadrados-1 img{
+    width: 250px;
+    height: 250px;
+    padding: 45px 25px;
+}
+
+
+.projetos-ctn-2{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.projetos-ctn-2 img:hover{
+    box-shadow: 0px 0px 21px 4px #3ab1b1ba;
+    transition: 0.5s;
+}
+
+.quadrados-2 img{
+    width: 250px;
+    height: 250px;
+    padding: 45px 25px;
+}
