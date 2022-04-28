@@ -16,7 +16,6 @@ html, body{
     scroll-behavior: smooth;
 }
 
-
 /*------------------------------------------------------------------------------*/
 
 body {
@@ -93,7 +92,7 @@ li:hover{
     border-radius: 30px;
     background-color: #0e969648;
     padding-left: 35px;
-
+    
     transition: 0.5s;
 }
 
@@ -217,6 +216,28 @@ h1:after {
     align-items: center;
     padding-top: 65px;
 }
+
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.cv a{
+    border-radius: 30px;
+    border: 1px solid #33FFFF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cv a:hover{
+    color: #33FFFF;
+    border-radius: 30px;
+    background-color: #0e969648;
+
+    transition: 0.5s;
+}
 /*----------------------------------------*/
 .sks{
     display: flex;
@@ -287,6 +308,14 @@ h1:after {
     padding: 50px 0px;
 }
 
+.tec-h3 #h3-tecnologias{
+    border-bottom: 2px solid #33ffff5c;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 27%;
+   margin: auto;
+}
+
 .tec-ctn{
     display: flex;
     justify-content: center;
@@ -328,6 +357,7 @@ h1:after {
 
 /*----------------------------------*/
 
+/*-----------------Projetos-----------------------*/
 .projetos-h3{
     text-align: center;
 }
@@ -336,47 +366,156 @@ h1:after {
 .projetos-ctn{
     display: flex;
     justify-content: center;
-    padding-top: 40px;
-    cursor: pointer;
-    padding: 45px 25px;
 }
 
-.projetos-ctn section{
-    padding: 0px 25px;
+.projetos-ctn img{
+    width: 300px;
+    height: 300px;
 }
 
-.projetos-ctn  img:hover{
-    box-shadow: 0px 0px 21px 4px #3ab1b1ba;
+.projetos-ctn img:hover{
+    width: 280px;
+    height: 280px;
     transition: 0.5s;
+    box-shadow: 0 8px 32px 0 #3ab1b1ba;
 }
 
-.quadrados-1 img{
-    width: 250px;
-    height: 250px;
-}
-
-.projetos-ctn .quadrados-1 a{
-    padding: 0px 10px;
+.projetos-ctn section, p{
+    padding: 20px;
+    text-align: center;
 }
 
 
-.projetos-ctn-2{
+
+.projetos-ctn2{
     display: flex;
     justify-content: center;
+}
+
+.projetos-ctn2 img{
+    width: 300px;
+    height: 300px;
+}
+
+.projetos-ctn2 img:hover{
+    width: 280px;
+    height: 280px;
+    transition: 0.5s;
+    box-shadow: 0 8px 32px 0 #3ab1b1ba;
+}
+
+.projetos-ctn2 section, p{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+/*-------------Modal------------------*/
+
+.modal {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    margin: auto;
+
+    height: 150px;
+    width: 390px;
+    border-radius: 30px;
+
+    background: rgb(0, 2, 17);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal > div {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: rgb(255, 255, 255);
+}
+
+.modal .tec-p{
+   
+    border: #33FFFF 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
     cursor: pointer;
-    padding: 25px 25px;
 }
 
-.projetos-ctn-2 .quadrados-2 a{
-    padding: 0px 10px;
+.modal section{
+    padding: 0px 5px;
 }
 
-.projetos-ctn-2 img:hover{
-    box-shadow: 0px 0px 21px 4px #3ab1b1ba;
+.modal p{
+    padding: 0px 5px;
+    border-radius: 25px;
+}
+
+.modal .tec-p:hover{
+    background-color: #0e969648;
+    color: #33FFFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -5px;
+    top: -5px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #0073ff64;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #33FFFF;
+    text-decoration: none;
+}
+
+
+.fechar:hover{
+    background-color: #0e969648;
+    border: #33FFFF 1px solid;
+    transition: 0.7s;
+}
+
+
+.a-tec-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: #33FFFF 1px solid;
+    border-radius: 30px;
+}
+
+.a-tec-btn:hover{
+    color: #3efefe;
+    border: 1px solid #33FFFF;
+    border-radius: 30px;
+    background-color: #0e969648;
     transition: 0.5s;
 }
-
-.quadrados-2 img{
-    width: 250px;
-    height: 250px;
-}
+/*---------------fim modal--------------------*/
