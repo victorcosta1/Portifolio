@@ -570,7 +570,7 @@ h1:after {
     background: rgb(0, 0, 0);
     border-radius: 5px;
   }
-  
+  /*------------------------------*/
 
 
 
@@ -578,6 +578,12 @@ h1:after {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.img-redes img:hover{
+    border: 2px solid #33FFFF;
+    border-radius: 30px;
+    transition: 0.3s;
 }
 
 .wpp-btn{
@@ -600,7 +606,4 @@ h1:after {
 }
 
 
-.div2 { 
-    grid-area: 1 / 4 / 7 / 7; 
-}
 
