@@ -22,13 +22,17 @@ small{
   color: #fff;
 }
 
+
 .svg-wrapper {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-      margin: 0 auto;
+  margin: 0 auto;
   width: 320px;  
 }
+
+
+
 .shape {
   stroke-dasharray: 140 540;
   stroke-dashoffset: -474;
@@ -47,6 +51,10 @@ small{
   top: -48px;
   position: relative;
 }
+
+
+
+
 .svg-wrapper:hover .shape {
   stroke-width: 2px;
   stroke-dashoffset: 0;

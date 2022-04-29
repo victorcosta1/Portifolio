@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 
 * {
     font-family: 'DM Sans', sans-serif;
-    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -508,6 +508,7 @@ h1:after {
 .h3-contato{
     text-align: center;
     padding-top: 35px;
+    font-size: 35px;
 }
 
 .parent {
