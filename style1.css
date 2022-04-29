@@ -1,3 +1,6 @@
+
+
+
 html, body {
   background: rgb(0, 0, 0); /* background: rgb(20,20,20);*/
   text-align: center;
@@ -5,17 +8,7 @@ html, body {
   overflow: hidden;
 }
 
-small{
-  color: #fff;
-  font-family: 'Roboto Condensed';
-  font-family: 'Roboto Condensed';
-  font-size: 25px;
-  line-height: 32px;
-  letter-spacing: 5px;
-  color: #fff;
 
-  position: relative;
-}
 
 .svg-wrapper a{
   text-decoration: none;
