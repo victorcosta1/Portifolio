@@ -76,7 +76,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-right: 25px;
+    padding: 10px;
     color: white;
     font-size: 25px;
 }
@@ -96,7 +96,6 @@ li:hover{
     border: 1px solid #33FFFF;
     border-radius: 30px;
     background-color: #0e969648;
-    padding-left: 35px;
     
     transition: 0.5s;
 }
