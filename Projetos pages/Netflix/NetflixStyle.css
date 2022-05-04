@@ -142,20 +142,18 @@ h2{
 .btn-site{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding: 20px 0px;
     
 }
 
 .btn-site a {
     text-decoration: none;
-}
-
-.btn-site a{
     border-radius: 30px;
     border: 1px solid #33FFFF;
-    padding: 10px;
+    padding: 12px;
     text-decoration: none;
 }
+
 
 .btn-site a:hover{
     color: #33FFFF;
@@ -167,5 +165,23 @@ h2{
 .btn-site a h4:hover{
     color: #33FFFF;
     transition: 0.5s;
-} 
+}
+
+
+/*mobile*/
+/*
+
+@media screen and (max-width:640px){
+    body{
+        font-size: 1.3em;
+    }
+
+    header{
+        width: auto;
+    }
+
+    nav ul li a{
+        width: 640px;
+    }
+}*/
 
