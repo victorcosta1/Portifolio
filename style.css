@@ -509,3 +509,52 @@ h1:after {
     background-color: #3efefe24;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 970px) {
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    header{
+        display: flex;
+        position: sticky;
+        width: 900px;
+        justify-content: center;
+    }
+
+    nav ul{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .typewriter{
+        margin: auto;
+    }
+
+    .img-sobre section p{
+        width: 100%;
+    }
+
+
+    .img-sobre{
+       width: 100%;
+       display: inline-flex;
+    }
+    .img-sobre .fotuda img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .projetos-ctn, .projetos-ctn2{
+        display: inline-flex;
+        margin: auto;
+        flex-direction: column;
+        
+    }
+    
+}
