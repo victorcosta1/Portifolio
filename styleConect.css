@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: #fff;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+
+.container{
+    display: flex;
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-logo img{
+
+    width: 450px;
+    height: 450px;
+}
+
+.conect-title{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 20px 0;
+}
+
+.sobre-title{
+    padding-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.sobre p{
+    text-align: center;
+}
+
+.img-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.img-sobre img{
+    width: 950px;
+    height: 450px;
+    padding: 10px;
+}
+
+.habilidades {
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.habilidades h4{
+    padding: 35px 0px;
+    text-align: center;
+}
+
+
+.Tecnologias{
+    padding: 35px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tecnologias span{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.tec-h4{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.java{
+    background-color: orangered;
+
+}
+
+.Node{
+    background-color: rgb(21, 87, 23);
+}
+
+.Type{
+    background-color: rgb(16, 55, 154);
+}
+
+.HTML{
+    background-color: rgb(170, 64, 3);
+}
+
+.CSS{
+    background-color: rgb(17, 46, 149);
+}
+
+.Angular{
+    background-color: rgb(171, 0, 0);
+}
+
+.SpringBoot{
+    background-color: rgb(0, 107, 20);
+}
+
+.sql{
+    background-color: rgb(44, 149, 139);
+}
+
+.Boot{
+    background-color: rgb(132, 0, 137);
+}
+
+.site-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.site-btn a{
+    text-decoration: none;
+    border: 1px solid #33FFFF;
+    border-radius: 30px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.site-btn a:hover{
+   color: #33FFFF;
+   background-color: #3efefe24;
+   transition: 0.5s;
+}
